@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pierwsza strona</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/everywhere.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/website.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js__body">
+    <div class="container">
+        <div class="container--width">
+            <div class="container--header">
+                <header class="header">
+                    <h1 class="header--top">Moje Hobby</h1>
+                </header>
+                <button class="button js__button">Zmiana motywu: <span class="js__button--style">Szare</span></button>
+            </div>
+        </div>
+        <div class="container__nagation--color">
+            <div class="container__navigation">
+                <nav class="navigation">
+                    <a class="navigation__link" href="#fpv">Fpv</a>
+                    <a class="navigation__link" href="#elektronika">Elektronika</a>
+                    <a class="navigation__link" href="#motoryzacja">Motoryzacja</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <section class="section" id="fpv">
+            <h2 class="header">Drony Fpv</h2>
+            <article>
+                <table class="table">
+                    <caption class="caption"> Porównanie odbiorników</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--color" scope="col">Właściwości</th>
+                        <td class="table__cell" scope="col"><img widty="80" height="80" src="images/xm+.webp"></td>
+                        <td class="table__cell" scope="col"><img widty="80" height="80" src="images/crosfire.jpg">
+                        </td>
+                        <td class="table__cell" scope="col"><img widty="80" height="80" src="images/Elrs.jpg"></td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--color" scope="row"> Producent</th>
+                        <td class="table__cell">FrSky</td>
+                        <td class="table__cell">TBS</td>
+                        <td class="table__cell">-</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--color" class="row"> Nazwa</th>
+                        <td class="table__cell">Xm+</td>
+                        <td class="table__cell">Crosfire</td>
+                        <td class="table__cell">Elrs</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--color" scope="row">Zasilanie</th>
+                        <td class="table__cell" colspan="3">5v</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--color" scope="row">Waga</th>
+                        <td class="table__cell">1.6g</td>
+                        <td class="table__cell">0.5g</td>
+                        <td class="table__cell">0.4g</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--color" scope="row">Wymiary</th>
+                        <td class="table__cell">21.5x12mm</td>
+                        <td class="table__cell">11x18mm</td>
+                        <td class="table__cell">10x10mm</td>
+                    </tr>
+                </table>
+                <h3 class="header">Właściwości</h3>
+                <p><strong>FrSky Xm+</strong> jest podstawowym odbiornikiem modelarskim. Jego koszt wynosi między
+                    80zł-100zł. Działa z nadajnikami Frsky, które zawsze są montowane w aparaturach marki FrSky,
+                    oraz w
+                    innych aparaturach, które mają wbudowany ten protokół. Jego zasięg wynosi około 1km-1,5km. Nie
+                    wspiera telemetri</p>
+                <p><strong>Tbs Crosfire</strong> przez pewien czas uważany za najlepszy odbiorniu, modułu crosfire.
+                    Działa z modułem TBS Crosfire. Koszt korzystania z protokołu tbs wyniosi: 400zł nadajnik,
+                    150zł-200zł odbiornik. Według procuenta zasięg wynosi 40km, lecz nikomu nie udało się to
+                    sprawdzić.
+                    Przy 20km zasięk nadal jest maksymalny, więc moża stwierdzić, że 40km jest realne.</p>
+                <p><strong>Elrs</strong> jest to protokół open source, przez co każdy producent może stworzyć
+                    odbiornik
+                    i nadajnik sowjej marki, który będzie kompatibilny z każdym odbiornikiem i nadajnikiem, nawek
+                    innej
+                    marki. Łączy cechy tańszych protokołów takich jak: FrSky,FlySky, itp., oraz drogich takich jak
+                    Crosfire. Nadajniki Express Elrs kosztują okolo 200zł, ale mogą być wbudowane w radio tak jak
+                    FrSky.
+                    Odbiornik kosztuje około 80zł, ale producenci tacy jak BetaFPV, oraz Happymode, którzy produkują
+                    nadajniki, oraz odbiorniki elrs, produkują elektornikę do swoich dronów, które mają wbudowany
+                    odbiornik. Jego zasieg nie jest oficialnie sprawdzony, ale nawed do dalekich lotów wystarczy.
+                </p>
+
+            </article>
+        </section>
+
+        <section class="section" id="elektronika">
+            <h2 class="header">Komputer i ich części</h2>
+            <table class="table table--localization">
+                <caption class="caption">Tabela cen Gpu w różnych latach</caption>
+                <tr>
+                    <th class="table__cell table__cell--color" scope="col">Model</th>
+                    <th class="table__cell table__cell--color" scope="col">2020</th>
+                    <th class="table__cell table__cell--color" scope="col">2021</th>
+                    <th class="table__cell table__cell--color" scope="col">2022</th>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--color" scope="row"> <a class="link" target="_blank"
+                            rel="noreferrer noopener"
+                            href="https://www.x-kom.pl/p/630712-karta-graficzna-nvidia-msi-geforce-rtx-3060-ventus-2x-oc-12gb-gddr6.html">
+                            Rtx 3060</a></th>
+                    <td class="table__cell" rowspan="2">2200zł</td>
+                    <td class="table__cell">2650zł</td>
+                    <td class="table__cell" rowspan="2">3000zł</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--color" scope="raw"> <a class="link" target="_blank"
+                            rel="noreferrer noopener"
+                            href="https://www.x-kom.pl/p/655245-karta-graficzna-nvidia-msi-geforce-rtx-3070-ti-ventus-3x-oc-8gb-gddr6x.htmll">
+                            Rtx 3070</a></th>
+                    <td class="table__cell">2250zł</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--color" scope="row"><a class="link" target="_blank"
+                            rel="noreferrer noopener"
+                            href="https://www.x-kom.pl/p/658507-karta-graficzna-nvidia-msi-geforce-rtx-3080-ti-ventus-3x-oc-12gb-gddr6x.html">
+                            Rtx 3080</a></th>
+                    <td class="table__cell">2000zł</td>
+                    <td class="table__cell">2700zł</td>
+                    <td class="table__cell">2780zł</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+        <section class="section" id="motoryzacja">
+            <h2 class="header">Motoryzacja</h2>
+            <p class="caption caption--list">Marki pojazdów</p>
+            <ul class="list">
+                <li class="list__part">Subaru
+                    <ul class="list__list">
+                        <li class="list__list__part">Brz</li>
+                        <li class="list__list__part">Impreza</li>
+                        <li class="list__list__part">Wrx</li>
+                    </ul>
+                </li>
+                <li class="list__part">Toyota
+                    <ul class="list__list">
+                        <li class="list__list__part">Supra</li>
+                        <li class="list__list__part">Gt86</li>
+                        <li class="list__list__part">Wrx</li>
+                    </ul>
+                </li>
+                <li class="list__part">Nissan
+                    <ul class="list__list">
+                        <li class="list__list__part">Gtr</li>
+                        <li class="list__list__part">350Z</li>
+                        <li class="list__list__part">370z</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="footer">
+        <footer class="footer__capacity">
+            <p> 27.08.2022 Jastrzębie-Zdrój 44-335</p>
+        </footer>
+    </div>
+</body>
