@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.table {
+    border-collapse: collapse;
+    overflow-x: auto;
+    margin: auto;
+    caption-side: bottom;
+    font-size: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.table__cell {
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+.table__cell--color {
+    background-color: rgba(0, 153, 255, 0.763);
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+
+.table__row:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+.table__row:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.table--localization {
+    caption-side: top;
+    margin-left: 20px;
+}
+
+.caption{
+    margin: 10px auto;
+    font-size: 25px;
+    text-shadow:1px 1px 20px rgb(0, 150, 255, 0.7),
+    0px 0px 1px black
+     
+}

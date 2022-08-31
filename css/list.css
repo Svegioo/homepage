@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.list{
+    padding: 0px;
+    margin: 5px auto 10px 20px;
+    list-style: none;
+}
+
+.list__list{
+padding-left: 25px;
+list-style: none;
+}
+
+.list__part{
+    font-weight: 600;
+}
+
+.list__list__part{
+    font-weight: 400;
+}
+
+
+.caption--list{
+    margin: 0px auto 0px 15px;
+}
+
